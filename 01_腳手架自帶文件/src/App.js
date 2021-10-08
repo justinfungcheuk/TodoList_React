@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+import logo from './logo.svg'; // 引入圖片，把圖片當作一個模塊引入
 import './App.css';
-
-function App() {
+/** App組件 */
+function App() { // 函數定義的組件，要有返回值 return
   return (
     <div className="App">
       <header className="App-header">
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+// ES6的語法 export default 默認暴露

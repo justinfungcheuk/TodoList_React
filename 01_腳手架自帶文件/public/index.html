@@ -6,21 +6,33 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> <!-- 用於指定網站圖標 -->
     <!-- 開啟理想視口，用於做移動端網頁的適配 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- 用於配置瀏覽器頁籤 + 地址欄的顏色，（但是只針對支持 安卓手機 瀏覽器）-->
+    <!-- 用於配置瀏覽器頁籤（瀏覽器的網頁） + 地址欄的顏色 （瀏覽器網頁的顏色），（但是只針對支持 安卓手機 瀏覽器）-->
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <!-- 用於指定網頁添加到手機主屏幕後的圖標 -->
+    <!-- 用於指定網頁添加到手機主屏幕上的圖標 （但是只適用於 蘋果手機，因為用了 apple-touch-icon）-->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!-- 應用加殼時的配置文件 -->
+    <!-- 應用加殼時的配置文件（應用加殼的意思是：先把頁面寫好了，再套上殼，可以是 加安卓的殼 或  蘋果的殼） -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
-  </head>
-  <body>
+
+
+    <!-- 引入 css樣式 文件，通過link的形式引入
+    <link rel="stylesheet" href="./css/inde.css">
+   -->
+    
+   <title>React App</title>
+   </head>
+   <body>
     <!-- 若瀏覽器不支持js則展示標籤中的內容 -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div> <!-- 相當於之前所講的 test 容器， 就是把 app 的組件和子組件一起放到這裡-->
+    <div id="root"></div> <!-- 相當於之前所講的 test 容器， 就是把 app 的組件和子組件或其他組件一起放到容器裡面-->
+    <!-- 只會把 App.js組件 放到 root容器， 所以只要把 App.js組件 放到 root容器，其他App的子組件也會一齊儲存到 root容器 裡面-->
+
+
+
+
+    <!-- robots.txt 代表是用於爬蟲規則文件 -->
   </body>
 </html>

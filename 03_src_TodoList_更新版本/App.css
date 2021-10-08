@@ -1,4 +1,5 @@
-/*base 代表通用性的東西*/
+/*base 代表通用性的東西，誰都用的一些css樣式*/
+/*base*/
 body {
     background: #fff;
   }
